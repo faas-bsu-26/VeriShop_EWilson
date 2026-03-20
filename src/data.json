@@ -1,0 +1,151 @@
+{
+  "categories": [
+    {
+      "id": "furniture",
+      "name": "Furniture",
+      "subCategories": {
+        "couches": [
+          {
+            "id": "c1",
+            "title": "Gorilla Couch",
+            "image": "https://lvfurniturecollection.com/cdn/shop/files/Remove_background_project-57_1646x.png?v=1765156333",
+            "trustScore": 99,
+            "price": 300.0,
+            "website": "https://lvfurniturecollection.com",
+            "siteDetails": {
+              "owner": {
+                "name": "John Doe",
+                "avatar": "https://static.wikia.nocookie.net/roblox/images/d/d6/John_Doe_and_Jane_Doe_%282016%29.png/revision/latest/scale-to-width/360?cb=20250914162151",
+                "phone": "(765) 123-4567",
+                "email": "gorillachair@gmail.com",
+                "experience": "23 years"
+              },
+              "verification": {
+                "created": "03/11/2012",
+                "paymentMethod": "Stripe",
+                "isEncrypted": true,
+                "policies": "Returns can be made only after 30 days of purchase. Returns cannot be damaged."
+              }
+            }
+          },
+          {
+            "id": "c2",
+            "title": "Altari Sofa",
+            "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTijlNrkwu2zn-3VRVih52pXFvZ3xO6F8grlGMN5W_6VJnJbQ2cKE25Oju7P6Fo5HkOmaW19tjjfOhHxUs2lAuNsiJ4P_8jo92jkuRSxnTPl-C-biKFHZz1dMk",
+            "trustScore": 88,
+            "price": 299.99,
+            "website": "https://www.nfm.com/"
+          },
+          {
+            "id": "c3",
+            "title": "Bronze Daybed",
+            "image": "https://akamai-scene7.frontgate.com/is/image/frontgate/T_Template?$src=frontgate/68648_BRO_main&$UPDP_hero_mob$",
+            "trustScore": 83,
+            "price": 1485.0,
+            "website": "https://www.frontgate.com/"
+          },
+          {
+            "id": "c4",
+            "title": "Dune Sectional Sofa",
+            "image": "https://www.keeksdesign.com/wp-content/uploads/2026/02/KS158-VEL-IRON-GREY-1-800x900.jpg",
+            "trustScore": 82,
+            "price": 4995.0,
+            "website": "https://www.keeksdesign.com/"
+          }
+        ],
+        "tables": [
+          {
+            "id": "t1",
+            "title": "A-Frame Dining Table",
+            "image": "https://assets.weimgs.com/weimgs/rk/images/wcm/products/202539/0013/mid-century-extendable-dining-table-39-92-1-z.jpg",
+            "trustScore": 94,
+            "price": 799.0,
+            "website": "https://www.westelm.com"
+          },
+          {
+            "id": "t2",
+            "title": "Picnic Table",
+            "image": "https://www.belson.com/Images/PB6APIC6-001-M.jpg",
+            "trustScore": 89,
+            "price": 1286.0,
+            "website": "https://www.belson.com/"
+          },
+          {
+            "id": "t3",
+            "title": "Rectangular Table",
+            "image": "https://vermontwoodsstudios.com/cdn/shop/files/Rectangular-Trestle-Solid-Top-Table.jpg?v=1768330279&width=1946",
+            "trustScore": 91,
+            "price": 575.99,
+            "website": "https://vermontwoodsstudios.com/"
+          },
+          {
+            "id": "t4",
+            "title": "Round Pedestal",
+            "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSJUfs4ikn4u7lCu-8LE0jwh3Xyw4LVQ-4IDDTvTNomPrGkZvJHpQ9YQa47mnUe2suLTIAXlTJhcywTttFRe7oIrgbI-NDiDe2iuJ2fUaj0et2xThfmhVmB3CnlM4PdtSF7urPxtZusxno&usqp=CAc",
+            "trustScore": 85,
+            "price": 329.99,
+            "website": "https://www.schooloutfitters.com/"
+          }
+        ],
+        "beds": [
+          {
+            "id": "b1",
+            "title": "Blue and Grey",
+            "image": "https://assets.roomstogo.com/product/royal-park-ivory-3-pc-king-storage-bed_3346891P_image-item?cache-id=101176382ede157aac7dfcd65cbbdb0d&h=385&w=1080",
+            "trustScore": 97,
+            "price": 3250.0,
+            "website": "https://www.roomstogo.com/"
+          },
+          {
+            "id": "b2",
+            "title": "Royalty Experience",
+            "image": "https://assets.wfcdn.com/im/96828257/compr-r85/2292/229297217/Traditional+Luxurious+upholstered+bed%2Cbed+frame%2Cplatform+bed.jpg",
+            "trustScore": 92,
+            "price": 5899.99,
+            "website": "https://www.wayfair.com/"
+          },
+          {
+            "id": "b3",
+            "title": "Antique Frame",
+            "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRfzR1uz8JgDROEQg-gqX3QV7dXL0LuiEw6OAZxApMuflPS111YKur0bL3TeBYDB3WwMV93r8-G5lwz4J8tb0HmKAr4m0Sd3WNlEjyMZarRc_ULAz0rT9HZZV7S3g_RDR6E3BJcRKzqP1g&usqp=CAc",
+            "trustScore": 88,
+            "price": 2429.0,
+            "website": "https://www.matriae.com/"
+          },
+          {
+            "id": "b4",
+            "title": "Smart Bed",
+            "image": "https://img5.su-cdn.com/cdn-cgi/image/width=750,height=750/mall/file/2022/07/06/483ccf30d922a6cb9ba6faefa3d6f9b0.jpg",
+            "trustScore": 84,
+            "price": 2669.99,
+            "website": "https://www.homary.com/"
+          }
+        ]
+      }
+    },
+    { "id": "electronics", "name": "Electronics", "items": [] },
+    { "id": "clothing", "name": "Clothing", "items": [] },
+    { "id": "kitchen", "name": "Kitchen", "items": [] },
+    { "id": "storage", "name": "Storage", "items": [] },
+    { "id": "decor", "name": "Decor", "items": [] },
+    { "id": "outdoor", "name": "Outdoor", "items": [] },
+    { "id": "lighting", "name": "Lighting", "items": [] },
+    { "id": "bedding", "name": "Bedding", "items": [] },
+    { "id": "bath", "name": "Bath", "items": [] },
+    { "id": "office", "name": "Office", "items": [] },
+    { "id": "gaming", "name": "Gaming", "items": [] },
+    { "id": "beauty-wellness", "name": "Beauty & Wellness", "items": [] },
+    { "id": "art-collectibles", "name": "Art & Collectibles", "items": [] },
+    { "id": "travel-luggage", "name": "Travel & Luggage", "items": [] },
+    { "id": "pet-essentials", "name": "Pet Essentials", "items": [] },
+    { "id": "smart-home", "name": "Smart Home", "items": [] },
+    {
+      "id": "jewelry-accessories",
+      "name": "Jewelry & Accessories",
+      "items": []
+    },
+    { "id": "books-media", "name": "Books & Media", "items": [] },
+    { "id": "home-security", "name": "Home Security", "items": [] },
+    { "id": "wellness-spa", "name": "Wellness & Spa", "items": [] }
+  ]
+}

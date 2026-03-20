@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Search } from "lucide-react";
 import { Link } from "react-router-dom";
+import CategoryData from '../data.json';
 
 const Home = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -29,6 +30,8 @@ const Home = () => {
     "Wellness & Spa",
   ];
 
+
+
   return (
     <main className="categories-page">
       <div className="categories-container">
@@ -56,10 +59,10 @@ const Home = () => {
         </header>
 
         <section className="categories-grid">
-          {categoryList.map((category, index) => (
-            <Link className="link" to="/furniture">
+          {CategoryData.categories.map((category, index) => (
+            <Link className="link" to={`/${category.id}`}>
               <div key={index} className="category-card">
-                <span className="category-name">{category}</span>
+                <span className="category-name">{category.name}</span>
               </div>
             </Link>
           ))}

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Verify = () => {
   const [formData, setFormData] = useState({
@@ -24,7 +25,6 @@ const Verify = () => {
   return (
     <main className="verify-page">
       <div className="verify-container">
-        {/* LEFT SIDE FORM */}
         <section className="verify-form-section">
           <h1 className="page-title">Verify Your Site</h1>
 
@@ -73,13 +73,12 @@ const Verify = () => {
               className="verify-textarea"
             />
 
-            <button type="submit" className="verify-submit">
+            <Link to="/return" className="verify-submit link">
               Submit
-            </button>
+            </Link>
           </form>
         </section>
 
-        {/* RIGHT SIDE INFO */}
         <section className="verify-info-section">
           <h2 className="verify-title">How it works</h2>
 

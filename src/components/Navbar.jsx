@@ -5,7 +5,7 @@ import CloseIcon from "./Close";
 
 const Navbar = () => {
   const [isToggled, setIsToggled] = useState(false);
-  const location = useLocation(); // Used to show active states
+  const location = useLocation();
 
   const links = [
     { title: "Home", path: "/" },
@@ -24,9 +24,9 @@ const Navbar = () => {
   return (
     <header className="main-header">
       <div className="header-container">
-        <h1 className="logo">VeriShop</h1>
-
-        {/* Mobile Navigation */}
+        <Link className="link" to="/">
+          <h1 className="logo">VeriShop</h1>
+        </Link>
         <nav className="mobile">
           <button
             onClick={() => setIsToggled(true)}
@@ -35,17 +35,17 @@ const Navbar = () => {
           >
             <NavbarMenu />
           </button>
-
-          <div 
-            className={`nav-overlay ${isToggled ? "active" : ""}`} 
+          <div
+            className={`nav-overlay ${isToggled ? "active" : ""}`}
             onClick={() => setIsToggled(false)}
           ></div>
-
           <aside className={`nav-aside ${isToggled ? "open" : ""}`}>
             <div className="aside-top">
-              <h1 className="logo">VeriShop</h1>
-              <button 
-                onClick={() => setIsToggled(false)} 
+              <Link className="link" to="/">
+                <h1 className="logo">VeriShop</h1>
+              </Link>
+              <button
+                onClick={() => setIsToggled(false)}
                 className="close-btn"
                 aria-label="Close Menu"
               >
@@ -54,9 +54,9 @@ const Navbar = () => {
             </div>
             <div className="navbar-links-mobile">
               {links.map((link) => (
-                <Link 
-                  key={link.path} 
-                  className={`link ${location.pathname === link.path ? "active" : ""}`} 
+                <Link
+                  key={link.path}
+                  className={`link ${location.pathname === link.path ? "active" : ""}`}
                   to={link.path}
                   onClick={() => setIsToggled(false)}
                 >
@@ -66,14 +66,12 @@ const Navbar = () => {
             </div>
           </aside>
         </nav>
-
-        {/* Laptop/Desktop Navigation */}
         <nav className="laptop">
           <div className="laptop-links">
             {links.map((link) => (
-              <Link 
-                key={link.path} 
-                className={`link ${location.pathname === link.path ? "active" : ""}`} 
+              <Link
+                key={link.path}
+                className={`link ${location.pathname === link.path ? "active" : ""}`}
                 to={link.path}
               >
                 {link.title}
